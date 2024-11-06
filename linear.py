@@ -33,5 +33,5 @@ r2 = r2_score(y_test, y_pred)
 # Save the model to a file using pickle
 with open("linear1.pkl", mode="wb") as pickle_out:
     pickle.dump(model, pickle_out)
-
+#print("Success")
 print("Model saved successfully.")
